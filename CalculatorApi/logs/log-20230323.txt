@@ -1,0 +1,252 @@
+2023-03-23 22:06:02.416 +11:00 [INF] User profile is available. Using '/Users/benukawithanage/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-03-23 22:06:02.772 +11:00 [INF] Now listening on: https://localhost:7057
+2023-03-23 22:06:02.773 +11:00 [INF] Now listening on: http://localhost:5275
+2023-03-23 22:06:02.774 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 22:06:02.774 +11:00 [INF] Hosting environment: Development
+2023-03-23 22:06:02.774 +11:00 [INF] Content root path: /Users/benukawithanage/Projects/NetCore/CalculatorApi/CalculatorApi/CalculatorApi
+2023-03-23 22:06:05.290 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger - -
+2023-03-23 22:06:43.607 +11:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in /Users/benukawithanage/Projects/NetCore/CalculatorApi/CalculatorApi/CalculatorApi/Program.cs:line 37
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-03-23 22:06:43.647 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger - - - 500 - text/html;+charset=utf-8 38359.6542ms
+2023-03-23 22:06:45.381 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/favicon.ico - -
+2023-03-23 22:06:45.396 +11:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in /Users/benukawithanage/Projects/NetCore/CalculatorApi/CalculatorApi/CalculatorApi/Program.cs:line 37
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-03-23 22:06:45.411 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/favicon.ico - - - 500 - text/plain;+charset=utf-8 32.4105ms
+2023-03-23 22:07:37.311 +11:00 [INF] User profile is available. Using '/Users/benukawithanage/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-03-23 22:07:37.643 +11:00 [INF] Now listening on: https://localhost:7057
+2023-03-23 22:07:37.643 +11:00 [INF] Now listening on: http://localhost:5275
+2023-03-23 22:07:37.644 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 22:07:37.644 +11:00 [INF] Hosting environment: Development
+2023-03-23 22:07:37.644 +11:00 [INF] Content root path: /Users/benukawithanage/Projects/NetCore/CalculatorApi/CalculatorApi/CalculatorApi
+2023-03-23 22:07:39.428 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger - -
+2023-03-23 22:07:39.641 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger - - - 301 0 - 215.3120ms
+2023-03-23 22:07:39.680 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/index.html - -
+2023-03-23 22:07:39.731 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 50.4629ms
+2023-03-23 22:07:39.838 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/swagger-ui.css - -
+2023-03-23 22:07:39.934 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/swagger-ui-bundle.js - -
+2023-03-23 22:07:39.939 +11:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-23 22:07:40.095 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/swagger-ui.css - - - 200 144929 text/css 256.9046ms
+2023-03-23 22:07:40.096 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/swagger-ui-standalone-preset.js - -
+2023-03-23 22:07:40.497 +11:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-23 22:07:40.523 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 427.5333ms
+2023-03-23 22:07:40.722 +11:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-23 22:07:40.722 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 787.9771ms
+2023-03-23 22:07:40.908 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/favicon-32x32.png - -
+2023-03-23 22:07:40.910 +11:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-23 22:07:40.910 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/favicon-32x32.png - - - 200 628 image/png 1.5101ms
+2023-03-23 22:07:41.085 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-03-23 22:07:41.158 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.2435ms
+2023-03-23 22:07:53.138 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50
+2023-03-23 22:07:53.151 +11:00 [INF] Executing endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:07:53.168 +11:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CalculatorApi.Data.User] Register(CalculatorApi.Model.UserDto) on controller CalculatorApi.Controllers.AuthController (CalculatorApi).
+2023-03-23 22:07:53.402 +11:00 [INF] Executing OkObjectResult, writing value of type 'CalculatorApi.Data.User'.
+2023-03-23 22:07:53.404 +11:00 [INF] Executed action CalculatorApi.Controllers.AuthController.Register (CalculatorApi) in 234.9277ms
+2023-03-23 22:07:53.406 +11:00 [INF] Executed endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:07:53.407 +11:00 [INF] HTTP POST /api/Auth/register responded 200 in 259.9998 ms
+2023-03-23 22:07:53.407 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50 - 200 - application/json;+charset=utf-8 270.0192ms
+2023-03-23 22:07:54.898 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50
+2023-03-23 22:07:54.899 +11:00 [INF] Executing endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:07:54.899 +11:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CalculatorApi.Data.User] Register(CalculatorApi.Model.UserDto) on controller CalculatorApi.Controllers.AuthController (CalculatorApi).
+2023-03-23 22:07:55.072 +11:00 [INF] Executing OkObjectResult, writing value of type 'CalculatorApi.Data.User'.
+2023-03-23 22:07:55.073 +11:00 [INF] Executed action CalculatorApi.Controllers.AuthController.Register (CalculatorApi) in 173.6085ms
+2023-03-23 22:07:55.073 +11:00 [INF] Executed endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:07:55.073 +11:00 [INF] HTTP POST /api/Auth/register responded 200 in 174.2038 ms
+2023-03-23 22:07:55.073 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50 - 200 - application/json;+charset=utf-8 175.4045ms
+2023-03-23 22:08:05.179 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50
+2023-03-23 22:08:05.182 +11:00 [INF] Executing endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:08:05.195 +11:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CalculatorApi.Data.User] Register(CalculatorApi.Model.UserDto) on controller CalculatorApi.Controllers.AuthController (CalculatorApi).
+2023-03-23 22:08:05.427 +11:00 [INF] Executing OkObjectResult, writing value of type 'CalculatorApi.Data.User'.
+2023-03-23 22:08:05.427 +11:00 [INF] Executed action CalculatorApi.Controllers.AuthController.Register (CalculatorApi) in 231.8823ms
+2023-03-23 22:08:05.427 +11:00 [INF] Executed endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:08:05.427 +11:00 [INF] HTTP POST /api/Auth/register responded 200 in 245.6971 ms
+2023-03-23 22:08:05.428 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50 - 200 - application/json;+charset=utf-8 249.0981ms
+2023-03-23 22:08:10.569 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/api/Auth/login application/json 50
+2023-03-23 22:08:10.572 +11:00 [INF] Executing endpoint 'CalculatorApi.Controllers.AuthController.Login (CalculatorApi)'
+2023-03-23 22:08:10.577 +11:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CalculatorApi.Data.User] Login(CalculatorApi.Model.UserDto) on controller CalculatorApi.Controllers.AuthController (CalculatorApi).
+2023-03-23 22:08:10.820 +11:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 22:08:10.821 +11:00 [INF] Executed action CalculatorApi.Controllers.AuthController.Login (CalculatorApi) in 243.6602ms
+2023-03-23 22:08:10.821 +11:00 [INF] Executed endpoint 'CalculatorApi.Controllers.AuthController.Login (CalculatorApi)'
+2023-03-23 22:08:10.821 +11:00 [INF] HTTP POST /api/Auth/login responded 200 in 249.7912 ms
+2023-03-23 22:08:10.822 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/api/Auth/login application/json 50 - 200 - text/plain;+charset=utf-8 253.6849ms
+2023-03-23 22:08:31.744 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:08:31.803 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:08:31.837 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:08:31.843 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:08:31.846 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:08:31.846 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 8.1228 ms
+2023-03-23 22:08:31.846 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 102.8747ms
+2023-03-23 22:08:37.474 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:08:37.478 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:08:37.479 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:08:37.481 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:08:37.481 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:08:37.481 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 2.3305 ms
+2023-03-23 22:08:37.482 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 8.0570ms
+2023-03-23 22:09:02.583 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:09:02.592 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:09:02.592 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:09:02.595 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:09:02.596 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:09:02.596 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 3.2951 ms
+2023-03-23 22:09:02.596 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 15.2732ms
+2023-03-23 22:10:08.177 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:10:08.185 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:10:08.186 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:10:08.188 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:10:08.188 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:10:08.188 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 1.4990 ms
+2023-03-23 22:10:08.188 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 14.2509ms
+2023-03-23 22:10:46.376 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:10:46.381 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:10:46.382 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:10:46.383 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:10:46.383 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:10:46.384 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 1.0076 ms
+2023-03-23 22:10:46.384 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 8.9807ms
+2023-03-23 22:10:48.223 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:10:48.224 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:10:48.224 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:10:48.225 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:10:48.225 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:10:48.225 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 0.6122 ms
+2023-03-23 22:10:48.225 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 2.0768ms
+2023-03-23 22:10:48.424 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:10:48.425 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:10:48.425 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:10:48.426 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:10:48.426 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:10:48.426 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 0.3200 ms
+2023-03-23 22:10:48.426 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 1.6574ms
+2023-03-23 22:10:48.604 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:10:48.606 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:10:48.606 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:10:48.606 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:10:48.607 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:10:48.607 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 0.9374 ms
+2023-03-23 22:10:48.608 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 3.0742ms
+2023-03-23 22:10:48.766 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:10:48.767 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:10:48.767 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:10:48.768 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:10:48.768 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:10:48.768 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 0.3539 ms
+2023-03-23 22:10:48.768 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 2.5111ms
+2023-03-23 22:10:48.953 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:10:48.954 +11:00 [INF] Failed to validate the token.
+System.MissingMethodException: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-03-23 22:10:48.954 +11:00 [INF] Bearer was not authenticated. Failure message: Method not found: 'Void Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(Microsoft.IdentityModel.Tokens.SecurityToken, System.Nullable`1<System.DateTime>, System.Nullable`1<System.DateTime>, System.String, Microsoft.IdentityModel.Tokens.TokenValidationParameters, System.Text.StringBuilder)'.
+2023-03-23 22:10:48.955 +11:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-23 22:10:48.955 +11:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-23 22:10:48.955 +11:00 [INF] HTTP POST /Calculator/add responded 401 in 0.2037 ms
+2023-03-23 22:10:48.955 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 401 0 - 1.4632ms
+2023-03-23 22:15:03.479 +11:00 [INF] User profile is available. Using '/Users/benukawithanage/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-03-23 22:15:03.771 +11:00 [INF] Now listening on: https://localhost:7057
+2023-03-23 22:15:03.771 +11:00 [INF] Now listening on: http://localhost:5275
+2023-03-23 22:15:03.772 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 22:15:03.772 +11:00 [INF] Hosting environment: Development
+2023-03-23 22:15:03.772 +11:00 [INF] Content root path: /Users/benukawithanage/Projects/NetCore/CalculatorApi/CalculatorApi/CalculatorApi
+2023-03-23 22:15:05.712 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/index.html - -
+2023-03-23 22:15:06.284 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 573.5376ms
+2023-03-23 22:15:08.485 +11:00 [INF] Request starting HTTP/1.1 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-03-23 22:15:08.691 +11:00 [INF] Request finished HTTP/1.1 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.5840ms
+2023-03-23 22:15:15.809 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50
+2023-03-23 22:15:15.864 +11:00 [INF] Executing endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:15:15.890 +11:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CalculatorApi.Data.User] Register(CalculatorApi.Model.UserDto) on controller CalculatorApi.Controllers.AuthController (CalculatorApi).
+2023-03-23 22:15:16.158 +11:00 [INF] Executing OkObjectResult, writing value of type 'CalculatorApi.Data.User'.
+2023-03-23 22:15:16.162 +11:00 [INF] Executed action CalculatorApi.Controllers.AuthController.Register (CalculatorApi) in 270.9949ms
+2023-03-23 22:15:16.163 +11:00 [INF] Executed endpoint 'CalculatorApi.Controllers.AuthController.Register (CalculatorApi)'
+2023-03-23 22:15:16.164 +11:00 [INF] HTTP POST /api/Auth/register responded 200 in 305.3748 ms
+2023-03-23 22:15:16.164 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/api/Auth/register application/json 50 - 200 - application/json;+charset=utf-8 356.2319ms
+2023-03-23 22:15:23.967 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/api/Auth/login application/json 50
+2023-03-23 22:15:23.972 +11:00 [INF] Executing endpoint 'CalculatorApi.Controllers.AuthController.Login (CalculatorApi)'
+2023-03-23 22:15:23.975 +11:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CalculatorApi.Data.User] Login(CalculatorApi.Model.UserDto) on controller CalculatorApi.Controllers.AuthController (CalculatorApi).
+2023-03-23 22:15:24.210 +11:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-23 22:15:24.210 +11:00 [INF] Executed action CalculatorApi.Controllers.AuthController.Login (CalculatorApi) in 234.9875ms
+2023-03-23 22:15:24.211 +11:00 [INF] Executed endpoint 'CalculatorApi.Controllers.AuthController.Login (CalculatorApi)'
+2023-03-23 22:15:24.211 +11:00 [INF] HTTP POST /api/Auth/login responded 200 in 239.4834 ms
+2023-03-23 22:15:24.211 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/api/Auth/login application/json 50 - 200 - text/plain;+charset=utf-8 244.7339ms
+2023-03-23 22:15:52.441 +11:00 [INF] Request starting HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43
+2023-03-23 22:15:52.525 +11:00 [INF] Executing endpoint 'CalculatorApi.Controllers.CalculatorController.Add (CalculatorApi)'
+2023-03-23 22:15:52.527 +11:00 [INF] Route matched with {action = "Add", controller = "Calculator"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CalculatorApi.Model.CalculatorResponse] Add(CalculatorApi.Model.CalculatorRequest) on controller CalculatorApi.Controllers.CalculatorController (CalculatorApi).
+2023-03-23 22:15:52.543 +11:00 [INF] Received add request: {"LeftOperand":0,"RightOperand":0,"$type":"CalculatorRequest"}
+2023-03-23 22:15:52.556 +11:00 [INF] Sending add response: {"Result":0,"$type":"CalculatorResponse"}
+2023-03-23 22:15:52.557 +11:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2023-03-23 22:15:52.557 +11:00 [INF] Executed action CalculatorApi.Controllers.CalculatorController.Add (CalculatorApi) in 29.7202ms
+2023-03-23 22:15:52.557 +11:00 [INF] Executed endpoint 'CalculatorApi.Controllers.CalculatorController.Add (CalculatorApi)'
+2023-03-23 22:15:52.557 +11:00 [INF] HTTP POST /Calculator/add responded 200 in 35.3725 ms
+2023-03-23 22:15:52.558 +11:00 [INF] Request finished HTTP/1.1 POST https://localhost:7057/Calculator/add application/json 43 - 200 - application/json;+charset=utf-8 117.7315ms
